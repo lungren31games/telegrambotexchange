@@ -5,12 +5,10 @@ using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace TelegramBotTest // Простір імен той самий, що і в парсера
+namespace TelegramBotTest 
 {
-    //Program.cs - це головний файл, який запускає бота та обробляє повідомлення від користувачів. Він використовує Telegram.Bot для взаємодії з Telegram API та викликає методи з CurrencyParser для отримання курсу валют.
     class Program
     {
-        // 👇 Встав сюди свій токен
         private static readonly string BotToken = BotConfiguration.Token;
         static async Task Main(string[] args)
         {

@@ -1,7 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System.Text; // Потрібно для StringBuilder
 
-namespace TelegramBotTest // Має бути такий самий, як у Program.cs
+namespace TelegramBotTest 
 {
     public static class CurrencyParser
     {
