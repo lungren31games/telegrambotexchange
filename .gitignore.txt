@@ -1,7 +1,0 @@
-@"
-.vs/
-bin/
-obj/
-*.user
-BotConfiguration.cs
-"@ | Out-File -Encoding utf8 .gitignore
